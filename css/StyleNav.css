@@ -1,0 +1,135 @@
+@import url('components.css');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins";
+
+    
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.wrapper {
+    width: 100%; 
+    max-width:none;
+    margin: 0 auto; 
+}
+
+
+.logo img {
+    width: 4.7%;
+  height: auto;
+    
+}
+
+.fas fa-user {
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: courier;
+    color: #FEF9D9;
+    margin-left: 30px;
+    
+}
+
+.menu {
+    padding-right: 30px;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position:sticky;
+    top: 0;
+    z-index: 1;
+    border-bottom:1px solid #FEF9D9;
+    background-color: #00541A;
+    margin-right: 100px;
+    
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+    display:flex; 
+    justify-content: flex-end;
+    font-size: 14px;
+    
+}
+
+nav ul li {
+margin-left: 10px;    
+}
+
+#user-btn {
+    color: #FEF9D9; 
+    margin-right: 5px; 
+    cursor: pointer; 
+    margin-top: 32px;
+}
+.logo img {
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: courier;
+    color: #FEF9D9;
+    margin-left: 30px;
+    
+}
+
+nav ul li a {
+    color: #FEF9D9;     
+    font-weight: bold;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+    position: relative;
+}
+nav ul li a::after {
+    content: '';
+    width: 0;
+    height: 2.5px;
+    background: #FEF9D9;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: width 0.5s; 
+}
+
+nav ul li a:hover::after {
+    width: 100%; 
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+
+a.tbl-biru {
+    background: #FEF9D9;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru:hover {
+    background: #F7E652;
+    text-decoration:wavy;
+}
+
